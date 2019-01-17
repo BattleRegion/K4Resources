@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 4be5352f886fe9e4fb33be65b1bf16ba
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Weapon_0
+    21300002: FXW_0
+    21300004: FX_staff
+    21300006: Weapon_2
+    21300008: Weapon_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Weapon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 196
+      alignment: 9
+      pivot: {x: .5, y: .295863867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXW_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 110
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: .5, y: -.647000015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX_staff
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 9
+        width: 154
+        height: 167
+      alignment: 9
+      pivot: {x: .5, y: 1.10000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 58
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 88
+        height: 138
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

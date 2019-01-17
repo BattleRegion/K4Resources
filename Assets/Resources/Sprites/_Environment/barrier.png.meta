@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 616e0fd2afa745e468c3c9008ead9588
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: barrier_firestone_0
+    21300002: barrier_firestone_1
+    21300004: barrier_firestone_3
+    21300006: barrier_firestone_5
+    21300008: barrier_firestone_6
+    21300010: barrier_floatstone_1
+    21300012: barrier_floatstone_0
+    21300014: barrier_crystal_3
+    21300016: barrier_firestone_4
+    21300018: barrier_icestone
+    21300020: barrier_wood
+    21300022: barrier_crystal_0
+    21300024: barrier_crystal_1
+    21300026: barrier_crystal_2
+    21300028: barrier_stone
+    21300030: barrier_firestone_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: barrier_firestone_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_firestone_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 505
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_firestone_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 496
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_firestone_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 476
+        width: 77
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_firestone_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_floatstone_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 330
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_floatstone_0
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 298
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_crystal_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 174
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_firestone_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 506
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_icestone
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 390
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_wood
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_crystal_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 256
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_crystal_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 267
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_crystal_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 248
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: barrier_stone
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 94
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

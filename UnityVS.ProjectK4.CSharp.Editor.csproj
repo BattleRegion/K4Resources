@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{392977BA-8195-5F01-249F-DF51A5F4C00E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>UnityVS.ProjectK4.CSharp.Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MonoProfile>2.0</MonoProfile>
+    <UnityPath>C:\Program Files (x86)\Unity\Editor</UnityPath>
+    <MonoPath>$(UnityPath)\Data\Mono</MonoPath>
+    <LibraryAssembly>Assembly-CSharp-Editor.dll</LibraryAssembly>
+    <TargetFrameworkDirectory>$(MonoPath)\lib\mono\$(MonoProfile)</TargetFrameworkDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>$(TargetFrameworkDirectory)\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>$(TargetFrameworkDirectory)\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>$(TargetFrameworkDirectory)\System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleJson">
+      <HintPath>Assets\ThirdPart\SimpleJson.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\ThirdPart\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\ThirdPart\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.ProjectK4.CSharp.csproj">
+      <Project>{650FA379-CFEC-89F3-C69C-CD2FAC170366}</Project>
+      <Name>UnityVS.ProjectK4.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.ProjectK4.UnityScript.Plugins.unityproj">
+      <Project>{931AFDF5-AF4A-0528-E8A2-C00F1128E8CF}</Project>
+      <Name>UnityVS.ProjectK4.UnityScript.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ThirdPart\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\BMFontReader.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\ComponentSelector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\FreeType.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUIHandles.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUIHelp.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUIJson.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUIMenu.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUISettings.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUISnap.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\SpriteSelector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UICameraEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UICameraTool.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIFontInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIFontMaker.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIGridEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIInputEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UILabelInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIPanelTool.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIRectEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIRootEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UISliderEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UITableEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UITextureInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UITexturePacker.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+    <Compile Include="Assets\ThirdPart\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Resources\Atlas\PetAvatars\PetAvata.txt" />
+    <None Include="Assets\Resources\Atlas\UI\Confirm\ConfirmUI.txt" />
+    <None Include="Assets\Resources\K4Shaders\AlphaMask.shader" />
+    <None Include="Assets\Resources\K4Shaders\Depth Mask.shader" />
+    <None Include="Assets\Resources\K4Shaders\ghost.shader" />
+    <None Include="Assets\Resources\K4Shaders\Mask.shader" />
+    <None Include="Assets\Resources\K4Shaders\Mask2.shader" />
+    <None Include="Assets\Resources\K4Shaders\RemoveColor.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Resources\Localization.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\ReadMe - 3.5.9.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\ThirdPart\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+    <None Include="Assets\ThirdPart\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>

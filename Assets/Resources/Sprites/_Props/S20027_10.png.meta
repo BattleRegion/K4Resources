@@ -1,0 +1,103 @@
+fileFormatVersion: 2
+guid: c3636fbedb269304eaa8d0bdc0171f95
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Equip_shoulder00
+    21300002: Equip_forearm0
+    21300004: Equip_arm0
+    21300006: Equip_hip
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Equip_shoulder00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 21
+        height: 17
+      alignment: 9
+      pivot: {x: .26504302, y: .610974014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_forearm0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 49
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: .357902139, y: .612431228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_arm0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 33
+        height: 29
+      alignment: 9
+      pivot: {x: .356908053, y: .597544193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_hip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 33
+        height: 17
+      alignment: 9
+      pivot: {x: .5, y: .6251387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

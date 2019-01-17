@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 84fbc02bdcfe555469871d8ade90e424
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Equip_leg0
+    21300002: Equip_shoulder11
+    21300004: Equip_shoulder00
+    21300006: Equip_shield
+    21300008: Equip_wing1
+    21300010: Equip_wing0
+    21300012: Equip_cloak
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Equip_leg0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 19
+        height: 26
+      alignment: 9
+      pivot: {x: .573684216, y: .496153891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_shoulder11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 133
+        width: 45
+        height: 41
+      alignment: 9
+      pivot: {x: .848888934, y: .473170757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_shoulder00
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 133
+        width: 45
+        height: 41
+      alignment: 9
+      pivot: {x: .155555561, y: .468292803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_shield
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 123
+        width: 41
+        height: 51
+      alignment: 9
+      pivot: {x: .625062048, y: .50815177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_wing1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 117
+        height: 111
+      alignment: 9
+      pivot: {x: .945420682, y: .145628467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_wing0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 117
+        height: 111
+      alignment: 9
+      pivot: {x: .0579926595, y: .145628467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_cloak
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 114
+        width: 70
+        height: 61
+      alignment: 9
+      pivot: {x: .456212282, y: .9299016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

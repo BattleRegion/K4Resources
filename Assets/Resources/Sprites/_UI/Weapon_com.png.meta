@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 812fee640a18b414a9262b61ca5feb01
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Weapon_com_0
+    21300002: Weapon_com_1
+    21300004: Weapon_com_2
+    21300006: Weapon_com_3
+    21300008: Weapon_com_4
+    21300010: Weapon_com_5
+    21300012: Weapon_com_6
+    21300014: Weapon_com_7
+    21300016: Weapon_com_8
+    21300018: Weapon_com_9
+    21300020: Weapon_com_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Weapon_com_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 624
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 585
+        width: 361
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 575
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_3
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 483
+        width: 318
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_4
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 158
+        width: 99
+        height: 519
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_5
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 109
+        width: 64
+        height: 568
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 374
+        width: 208
+        height: 210
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 364
+        width: 208
+        height: 210
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 163
+        width: 317
+        height: 319
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 366
+        height: 362
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_com_10
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 23
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

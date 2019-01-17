@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 259af5cc6fce4cc4abbfabe9fd668760
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 1_XieXie
+    21300002: 1_Xiao1
+    21300004: 1_Xiao2
+    21300006: 1_Xiao3
+    21300008: 1_BiaoQing1
+    21300010: 1_BiaoQing2
+    21300012: 1_BiaoQing3
+    21300014: 1_BiaoQing4
+    21300016: 1_HuaKuang
+    21300018: 1_Lian
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 1_XieXie
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 156
+        width: 139
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_Xiao1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 172
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_Xiao2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 132
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_Xiao3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 110
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_BiaoQing1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_BiaoQing2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_BiaoQing3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 115
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_BiaoQing4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 109
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_HuaKuang
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 116
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1_Lian
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 21
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

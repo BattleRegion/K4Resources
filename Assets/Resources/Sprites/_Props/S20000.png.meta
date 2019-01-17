@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: 65ff1a0cfce1510459a655c9f4148d9e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Equip_10_hip
+    21300002: Equip_50_hip
+    21300004: Equip_60_hip
+    21300006: Equip_20_arm1
+    21300008: Equip_50_chest
+    21300010: Equip_50_leg0
+    21300012: Equip_60_arm0
+    21300014: Equip_60_arm1
+    21300016: Equip_50_leg1
+    21300018: Equip_60_chest
+    21300020: Equip_10_thigh1
+    21300022: Equip_10_thigh0
+    21300024: Equip_20_hip
+    21300026: Equip_60_thigh1
+    21300028: Equip_10_arm1
+    21300030: Equip_10_arm0
+    21300032: Equip_60_forearm1
+    21300034: Equip_20_forearm0
+    21300036: Equip_10_leg0
+    21300038: Equip_50_arm0
+    21300040: Equip_50_arm1
+    21300042: Equip_10_leg1
+    21300044: Equip_20_leg0
+    21300046: Equip_10_body
+    21300048: Equip_20_thigh0
+    21300050: Equip_20_thigh1
+    21300052: Equip_50_thigh0
+    21300054: Equip_50_forearm0
+    21300056: Equip_60_thigh0
+    21300058: Equip_50_thigh1
+    21300060: Equip_50_forearm1
+    21300062: Equip_20_leg1
+    21300064: Equip_20_arm0
+    21300066: Equip_60_leg0
+    21300068: Equip_60_leg1
+    21300070: Equip_10_forearm1
+    21300072: Equip_20_forearm1
+    21300074: Equip_10_forearm0
+    21300076: Equip_60_forearm0
+    21300078: Equip_20_body
+    21300080: Equip_60_body
+    21300082: Equip_50_body
+    21300084: Equip_50_shoulder1
+    21300086: Equip_50_shoulder0
+    21300088: Equip_10_shoulder1
+    21300090: Equip_10_shoulder0
+    21300092: Equip_60_shoulder1
+    21300094: Equip_60_shoulder0
+    21300096: Equip_20_shoulder1
+    21300098: Equip_20_shoulder0
+    21300100: Equip_50_shoulder11
+    21300102: Equip_50_shoulder00
+    21300104: Equip_10_shoulder11
+    21300106: Equip_10_shoulder00
+    21300108: Equip_20_shoulder00
+    21300110: Equip_60_shield
+    21300112: Equip_10_shield
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Equip_10_hip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 979
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_hip
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 978
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_hip
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 978
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_arm1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 978
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_chest
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 977
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_leg0
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 977
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_arm0
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 977
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_arm1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 977
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_leg1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 977
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_chest
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 976
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_thigh1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 927
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_thigh0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 927
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_hip
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 927
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_thigh1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 926
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_arm1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 926
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_arm0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 926
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_forearm1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 925
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_forearm0
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 925
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_leg0
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 924
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_arm0
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 924
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_arm1
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 924
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_leg1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 872
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_leg0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 871
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_body
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 871
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_thigh0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 871
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_thigh1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 871
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_thigh0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 870
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_forearm0
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 870
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_thigh0
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 870
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_thigh1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 870
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_forearm1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 870
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_leg1
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 870
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_arm0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 816
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_leg0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 815
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_leg1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 814
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_forearm1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 813
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_forearm1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 813
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_forearm0
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 813
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_forearm0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 812
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_body
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 812
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_body
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 810
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_body
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 809
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_shoulder1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 720
+        width: 90
+        height: 87
+      alignment: 9
+      pivot: {x: .876095414, y: .441373974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_shoulder0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 720
+        width: 90
+        height: 87
+      alignment: 9
+      pivot: {x: .12534298, y: .439233541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_shoulder1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 720
+        width: 80
+        height: 87
+      alignment: 9
+      pivot: {x: .856249988, y: .440230459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_shoulder0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 720
+        width: 80
+        height: 87
+      alignment: 9
+      pivot: {x: .14000015, y: .441379577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_shoulder1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 720
+        width: 59
+        height: 87
+      alignment: 9
+      pivot: {x: .830835402, y: .34659481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_shoulder0
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 720
+        width: 101
+        height: 87
+      alignment: 9
+      pivot: {x: .109957553, y: .356523901}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_shoulder1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 631
+        width: 101
+        height: 87
+      alignment: 9
+      pivot: {x: .824492574, y: .440333575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_shoulder0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 631
+        width: 88
+        height: 87
+      alignment: 9
+      pivot: {x: .131966591, y: .417310685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_shoulder11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 666
+        width: 51
+        height: 52
+      alignment: 9
+      pivot: {x: .837661743, y: .450619042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_50_shoulder00
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 666
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: .153769866, y: .450229347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_shoulder11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 666
+        width: 51
+        height: 52
+      alignment: 9
+      pivot: {x: .833162189, y: .450229347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_shoulder00
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 666
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: .153769866, y: .45239374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_20_shoulder00
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 666
+        width: 53
+        height: 52
+      alignment: 9
+      pivot: {x: .113593914, y: .508656442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_60_shield
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 639
+        width: 48
+        height: 79
+      alignment: 9
+      pivot: {x: .503041565, y: .33370468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_10_shield
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 559
+        width: 48
+        height: 79
+      alignment: 9
+      pivot: {x: .599865615, y: .312690049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: f59b870eb6925144faebc3bdf8e8d0d9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Equip_chest
+    21300002: Equip_hip
+    21300004: Equip_leg1
+    21300006: Equip_leg0
+    21300008: Equip_forearm0
+    21300010: Equip_forearm1
+    21300012: Equip_arm0
+    21300014: Equip_arm1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Equip_chest
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 31
+        height: 16
+      alignment: 9
+      pivot: {x: .503225803, y: .656341076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_hip
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 29
+        height: 17
+      alignment: 9
+      pivot: {x: .55033493, y: .601477206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_leg1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 62
+        width: 16
+        height: 19
+      alignment: 9
+      pivot: {x: .292653561, y: .758418441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_leg0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 61
+        width: 17
+        height: 20
+      alignment: 9
+      pivot: {x: .648313165, y: .805213153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_forearm0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 46
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: .419974178, y: .626690686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_forearm1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 22
+        width: 36
+        height: 41
+      alignment: 9
+      pivot: {x: .704957128, y: .431167036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_arm0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 19
+        width: 34
+        height: 42
+      alignment: 9
+      pivot: {x: .416833103, y: .337785453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Equip_arm1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 39
+        height: 44
+      alignment: 9
+      pivot: {x: .608865023, y: .363300294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

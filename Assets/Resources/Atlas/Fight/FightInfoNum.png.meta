@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 0c7ab5f4785f1cd409b5727c92619ea2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FightInfoNum_3
+    21300002: FightInfoNum_8
+    21300004: FightInfoNum_5
+    21300006: FightInfoNum_4
+    21300008: FightInfoNum_10
+    21300010: FightInfoNum_2
+    21300012: FightInfoNum_9
+    21300014: FightInfoNum_7
+    21300016: FightInfoNum_1
+    21300018: FightInfoNum_0
+    21300020: FightInfoNum_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FightInfoNum_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 66
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 67
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 66
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 34
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 36
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 36
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FightInfoNum_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,36 @@
+{"frames": {
+
+"确认 (1).png":
+{
+	"frame": {"x":2,"y":2,"w":565,"h":147},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":565,"h":147},
+	"sourceSize": {"w":565,"h":147}
+},
+"确认 (2).png":
+{
+	"frame": {"x":147,"y":151,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"确认 (3).png":
+{
+	"frame": {"x":2,"y":151,"w":143,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":143,"h":79},
+	"sourceSize": {"w":143,"h":79}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "ConfirmUI.png",
+	"format": "RGBA8888",
+	"size": {"w":569,"h":232},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:91fe44dce1776457097f6a80c99e1d99$"
+}
+}

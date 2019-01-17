@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 43e4fb7e4159f5b48922f8429ad3a2c0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Weapon_0
+    21300002: Weapon_1
+    21300004: Weapon_2
+    21300006: FX_sword
+    21300008: FXA_1
+    21300010: FXA_2
+    21300012: FXA_3
+    21300014: FXA_4
+    21300016: FXA_5
+    21300018: FXA_6
+    21300020: FXA_7
+    21300022: FXA_8
+    21300024: FXA_9
+    21300026: FXA_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Weapon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 71
+        height: 147
+      alignment: 9
+      pivot: {x: .474561065, y: .230499998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 71
+        height: 113
+      alignment: 9
+      pivot: {x: .474561095, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 71
+        height: 34
+      alignment: 9
+      pivot: {x: .474561095, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX_sword
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3
+        width: 107
+        height: 118
+      alignment: 9
+      pivot: {x: 1.17726052, y: -.0754475892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 107
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 107
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 107
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 107
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_5
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 107
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_9
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FXA_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 95
+        height: 107
+      alignment: 9
+      pivot: {x: .5, y: .261476487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

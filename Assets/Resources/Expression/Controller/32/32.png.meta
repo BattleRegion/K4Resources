@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: c04fb5d5003f229438ab42e0f0a6192a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 32_HuaKuang
+    21300002: 32_SheTou1
+    21300004: 32_SheTou2
+    21300006: 32_SheTou3
+    21300008: 32_SheTou4
+    21300010: 32_BiaoQing
+    21300012: 32_Lian
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 32_HuaKuang
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 116
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 32_SheTou1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 32_SheTou2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 32_SheTou3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 32_SheTou4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 32_BiaoQing
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 38
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 32_Lian
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 81
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

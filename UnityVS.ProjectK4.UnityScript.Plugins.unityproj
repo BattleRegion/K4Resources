@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{931AFDF5-AF4A-0528-E8A2-C00F1128E8CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>UnityVS.ProjectK4.UnityScript.Plugins</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <ProjectTypeGuids>{84365F2C-1DDE-431A-8C14-179ADC971E4D};{1FAC5C55-277D-4884-94A4-83DBDAF57E56}</ProjectTypeGuids>
+    <MonoProfile>unity</MonoProfile>
+    <UnityPath>C:\Program Files (x86)\Unity\Editor</UnityPath>
+    <MonoPath>$(UnityPath)\Data\Mono</MonoPath>
+    <LibraryAssembly>Assembly-UnityScript-firstpass.dll</LibraryAssembly>
+    <TargetFrameworkDirectory>$(MonoPath)\lib\mono\$(MonoProfile)</TargetFrameworkDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>$(TargetFrameworkDirectory)\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>$(TargetFrameworkDirectory)\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>$(TargetFrameworkDirectory)\System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleJson">
+      <HintPath>Assets\ThirdPart\SimpleJson.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\AnimationScrollTexture_XY.js" />
+    <Compile Include="Assets\Plugins\AnimationScrollTexture_Y.js" />
+    <Compile Include="Assets\Plugins\AnimationSpriteSheet.js" />
+    <Compile Include="Assets\Plugins\DeadTime.js" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Resources\Atlas\PetAvatars\PetAvata.txt" />
+    <None Include="Assets\Resources\Atlas\UI\Confirm\ConfirmUI.txt" />
+    <None Include="Assets\Resources\K4Shaders\AlphaMask.shader" />
+    <None Include="Assets\Resources\K4Shaders\Depth Mask.shader" />
+    <None Include="Assets\Resources\K4Shaders\ghost.shader" />
+    <None Include="Assets\Resources\K4Shaders\Mask.shader" />
+    <None Include="Assets\Resources\K4Shaders\Mask2.shader" />
+    <None Include="Assets\Resources\K4Shaders\RemoveColor.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Resources\Localization.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\ReadMe - 3.5.9.txt" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\ThirdPart\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets" />
+    <Folder Include="Assets\Plugins" />
+    <Folder Include="Assets\Plugins\Android" />
+    <Folder Include="Assets\Resources" />
+    <Folder Include="Assets\Resources\Atlas" />
+    <Folder Include="Assets\Resources\Atlas\PetAvatars" />
+    <Folder Include="Assets\Resources\Atlas\UI" />
+    <Folder Include="Assets\Resources\Atlas\UI\Confirm" />
+    <Folder Include="Assets\Resources\K4Shaders" />
+    <Folder Include="Assets\ThirdPart" />
+    <Folder Include="Assets\ThirdPart\NGUI" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Atlases" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Atlases\Fantasy" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Atlases\Refractive" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Atlases\SciFi" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Atlases\Wooden" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Models" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Models\Orc" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Models\Orc Armor" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Resources" />
+    <Folder Include="Assets\ThirdPart\NGUI\Examples\Shaders" />
+    <Folder Include="Assets\ThirdPart\NGUI\Resources" />
+    <Folder Include="Assets\ThirdPart\NGUI\Resources\Shaders" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.UnityScript.targets" />
+</Project>

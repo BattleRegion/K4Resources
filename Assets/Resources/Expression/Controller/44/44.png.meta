@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: a9213c051a230994f980921134bb94b4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 44_HuaKuang
+    21300002: 44_Zuo1
+    21300004: 44_Lian
+    21300006: 44_Zuo2
+    21300008: 44_Zuo3
+    21300010: 44_Zuo4
+    21300012: 44_You1
+    21300014: 44_You2
+    21300016: 44_You3
+    21300018: 44_You4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 44_HuaKuang
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 118
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_Zuo1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 132
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_Lian
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_Zuo2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 130
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_Zuo3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 92
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_Zuo4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 90
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_You1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 46
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_You2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 46
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_You3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 7
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44_You4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 6
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
